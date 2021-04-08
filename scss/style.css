@@ -1,0 +1,52 @@
+#showcase {
+  background: url(../images/im1.jpg) no-repeat center/cover;
+  height: 600px;
+}
+
+#showcase #showcase-inner {
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#testimonials {
+  background: url(../images/pexels-rebrand-cities-1367271.jpg) no-repeat center/cover;
+  height: 600px;
+}
+
+#testimonials #testimonials-inner {
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.dropdown-content {
+  display: none;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 550px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#links i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#links i:hover {
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
+#inner-links ul li {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#inner-links ul li:hover {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+}
+/*# sourceMappingURL=style.css.map */
