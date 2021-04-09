@@ -49,4 +49,14 @@
   -webkit-transform: scale(0.97);
           transform: scale(0.97);
 }
+
+#dm i {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#dm i:hover {
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
+}
 /*# sourceMappingURL=style.css.map */
