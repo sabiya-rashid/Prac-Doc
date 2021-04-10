@@ -59,4 +59,16 @@
   -webkit-transform: scale(1.09);
           transform: scale(1.09);
 }
+
+#it #col {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+#it #col:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*# sourceMappingURL=style.css.map */
